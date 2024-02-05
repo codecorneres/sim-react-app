@@ -265,16 +265,16 @@ jQuery(document).ready(function () {
     }
   });
 
-  jQuery('.quick-approach-nav .search-link a').on('click', function () {
-    jQuery(this)
-      .parents('.site-main-header')
-      .find('.search-form-main')
-      .collapse('show');
-    return false;
-  });
-  jQuery('.close-btn').on('click', function () {
-    jQuery(this).parents('.search-form-main').collapse('hide');
-  });
+  // jQuery('.quick-approach-nav .search-link a').on('click', function () {
+  //   jQuery(this)
+  //     .parents('.site-main-header')
+  //     .find('.search-form-main')
+  //     .collapse('show');
+  //   return false;
+  // });
+  // jQuery('.close-btn').on('click', function () {
+  //   jQuery(this).parents('.search-form-main').collapse('hide');
+  // });
 
   // Progress Bar Labels
   for (var i = 1; i <= 3; i++) {

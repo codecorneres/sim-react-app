@@ -29,6 +29,7 @@ import callOutlineIcon from './images/call-outline.svg';
 import envelopOutlineBold from './images/envelope-outline-bold.svg';
 import registerCharitySold from './images/registered-charity-solid.svg';
 import MissionWorkerDetailPopup from './components/MissionWorkerDetailPopup';
+import closeSearchCollapse from './images/close.svg';
 
 const Home = () => {
   const sectionRef = useRef(null);
@@ -114,11 +115,14 @@ const Home = () => {
   const handleClickDownArrow = () => {
     sectionRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
+  
+  const [show, setShow] = useState(false);
+  const contentEl = useRef();
 
   return (
     <>
       <header className='site-main-header'>
-        <div className='search-form-main collapse bg-gray-secondary'>
+        <div className='search-form-main bg-gray-secondary' ref={contentEl} style={show ? {height: contentEl.current.scrollHeight, transition: 'all 0.3s', overflow: 'hidden'} : {height: '0px', overflow: 'hidden', transition: 'all 0.3s' }}>
           <div className='container'>
             <div className='search-form-inner'>
               <form action=''>
@@ -129,8 +133,8 @@ const Home = () => {
                   Search
                 </button>
               </form>
-              <div className='close-btn'>
-                <img src='images/close.svg' alt='' />
+              <div className='close-btn' onClick={() => setShow(false)}>
+                <img src={closeSearchCollapse} alt='' />
               </div>
             </div>
           </div>
@@ -164,8 +168,8 @@ const Home = () => {
             >
               <div className='top-nav text-end d-lg-block d-none'>
                 <div className='quick-approach-nav'>
-                  <div className='nav-item'>
-                    <a href='#'>
+                  <div className='nav-item search-link'>
+                    <a href='#' onClick={() => setShow(true)}>
                       <img src={searchIcon} alt='' />
                       Search
                     </a>
