@@ -1,0 +1,13 @@
+
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g>
+  <map name="image-map" class="continent-picker">
+    <area class="map-area" id="OG7CyJf" target="" alt="Europe" title="Europe" href="#" coords="624,190,632,177,615,172,609,162,601,161,608,155,595,142,602,130,597,85,607,78,558,70,508,96,455,212,474,238,501,233,546,222,584,239,588,219" shape="poly">
+    <area class="map-area" id="epfSt9E" target="" alt="Africa" title="Africa" href="#" coords="593,509,666,473,686,378,664,318,639,321,620,284,608,259,576,241,540,226,471,239,430,339,515,497" shape="poly">
+    <area class="map-area" id="jx6tE7q" target="" alt="North America" title="North America" href="#" coords="272,347,287,318,310,313,478,104,479,0,1,0,0,159,57,170,97,164,133,236,189,318" shape="poly">
+    <area class="map-area" id="XFfneee" target="" alt="South America" title="South America" href="#" coords="272,345,286,317,310,314,377,349,411,386,386,466,413,572,268,573,285,436,254,374" shape="poly">
+    <area class="map-area" id="y4dLClt" target="" alt="Oceania" title="Oceania" href="#" coords="926,393,926,370,970,364,1046,480,1030,557,939,542,898,501,851,501,832,444,891,401" shape="poly">
+    <area class="map-area" id="ZUqSyEM" target="" alt="Asia" title="Asia" href="#" coords="609,77,633,7,838,8,1074,74,1074,130,954,318,926,370,925,393,888,401,844,416,709,371,664,318,641,321,608,260,588,227,586,222,625,189,631,177,614,171,608,161,601,160,607,155,594,141,601,130,597,84" shape="poly">
+  </map>
+</g>
+</svg>

@@ -276,15 +276,28 @@ jQuery(document).ready(function () {
   //   jQuery(this).parents('.search-form-main').collapse('hide');
   // });
 
-  // Progress Bar Labels
-  for (var i = 1; i <= 3; i++) {
-    var progressLabel = i * (100 / 4);
-    jQuery('<label class="label">' + progressLabel + '</label>').appendTo(
-      '.label-strip'
-    );
+  jQuery('.region-list-main li').mouseover(function(e) {
+    var areaName = jQuery(this).attr('data-area');
+    // console.log(areaName);
+    jQuery('.map-frame svg g[data-area= "'+ areaName +'"]').addClass('active');
+  });
+  jQuery('.region-list-main li').mouseout(function(e) {
+    jQuery('.map-frame svg g').removeClass('active');
+  });
+
+  if(jQuery(window).width() <= 991){
+    jQuery('.navbar-nav > li:not(.nav-btn)').append('<i class="fa-solid fa-chevron-down"></i>');
   }
+  if(jQuery(window).width() > 991){
+    jQuery('.navbar-nav > li:not(.nav-btn) > a').append('<i class="fa-solid fa-chevron-down"></i>');
+  }
+
+  jQuery('.navbar-nav > li:not(.nav-btn) > i').on('click', function(){
+    
+    // jQuery(this).parents('li').find('.mega-menu');
+    jQuery(this).parents('li').toggleClass('menu-visible');
+    jQuery(this).parents('li').siblings().removeClass('menu-visible');
+  });
+
 });
 
-jQuery('.toggle').click(function () {
-  jQuery('#target').toggle('');
-});
