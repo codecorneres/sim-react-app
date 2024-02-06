@@ -1057,6 +1057,13 @@ form .gform_confirmation_message,
   border: 2px solid #eeac07;
   border-radius: 50px;
 }
+.site-main-header .navbar-collapse .navbar-nav li.nav-btn > a:after {
+  content: "\f078";
+  font-family: "Font Awesome 5 free";
+  font-weight: 800;
+  font-size: 11px;
+  margin-left: 7px;
+}
 .site-main-header .navbar-collapse .navbar-nav li.nav-btn > a:hover {
   background-color: #eeac07;
 }
@@ -1076,9 +1083,6 @@ form .gform_confirmation_message,
     margin-right: 0;
   }
   .site-main-header .navbar-collapse .navbar-nav > li:hover::before, .site-main-header .navbar-collapse .navbar-nav > li:hover:after {
-    display: none;
-  }
-  .site-main-header .navbar-collapse .navbar-nav > li.nav-btn {
     display: none;
   }
   .site-main-header .navbar-collapse .navbar-nav > li:not(.nav-btn) {
