@@ -280,7 +280,7 @@ const Home = () => {
                 <div className='btn-find'>
                   <a
                     style={{ backgroundImage: `url(${btnArrowDark})` }}
-                    href='/'
+                    href="javascript:void(0);"
                     className='btn-default'
                   >
                     Find out more
@@ -307,7 +307,7 @@ const Home = () => {
                     aliquyam erat.
                   </p>
                   <div className='cta-btn'>
-                    <a href='#'>
+                    <a href="javascript:void(0);">
                       <img src={btnArrowLight} />
                     </a>
                   </div>
@@ -327,7 +327,7 @@ const Home = () => {
                     aliquyam erat.
                   </p>
                   <div className='cta-btn'>
-                    <a href='#'>
+                    <a href="javascript:void(0);">
                       <img src={btnArrowLight} />
                     </a>
                   </div>
@@ -347,7 +347,7 @@ const Home = () => {
                     Christ.
                   </p>
                   <div className='cta-btn'>
-                    <a href='#'>
+                    <a href="javascript:void(0);">
                       <img src={btnArrowLight} />
                     </a>
                   </div>
@@ -449,7 +449,7 @@ const Home = () => {
           </div>
           <div className='cta-btn'>
             <a
-              href='/'
+              href="javascript:void(0);"
               style={{ backgroundImage: `url(${btnArrowDark})` }}
               className='btn-default'
             >
@@ -472,7 +472,7 @@ const Home = () => {
           </div>
           <div className='cta-btn'>
             <a
-              href='/'
+              href="javascript:void(0);"
               style={{ backgroundImage: `url(${btnArrowDark})` }}
               className='btn-default'
             >
@@ -497,7 +497,7 @@ const Home = () => {
                 <div className='cta-btn'>
                   <a
                     style={{ backgroundImage: `url(${btnArrowDark})` }}
-                    href='#'
+                    href="javascript:void(0);"
                     className='btn-default'
                   >
                     Discover more stories
@@ -509,7 +509,7 @@ const Home = () => {
           <div className='posts-grid-featured'>
             <div className='row'>
               <div className='col-md-7'>
-                <a href='#'>
+                <a href="javascript:void(0);">
                   <div className='featured-post br-25'>
                     <div className='thumb media-cover br-25'>
                       <img src={helpImage} alt='' />
@@ -552,7 +552,7 @@ const Home = () => {
               </div>
               <div className='col-md-5'>
                 <div className='post-list-vertical'>
-                  <a href='#'>
+                  <a href="javascript:void(0);">
                     <div className='post-single-box'>
                       <div className='post-thumb'>
                         <div className='thumb media-cover br-25'>
@@ -566,7 +566,7 @@ const Home = () => {
                       </div>
                     </div>
                   </a>
-                  <a href='#'>
+                  <a href="javascript:void(0);">
                     <div className='post-single-box theme-optional-primary'>
                       <div className='post-thumb'>
                         <div className='thumb media-cover br-25'>
@@ -580,7 +580,7 @@ const Home = () => {
                       </div>
                     </div>
                   </a>
-                  <a href='#'>
+                  <a href="javascript:void(0);">
                     <div className='post-single-box theme-optional-secondary'>
                       <div className='post-thumb'>
                         <div className='thumb media-cover br-25'>
@@ -598,7 +598,7 @@ const Home = () => {
               </div>
             </div>
             <div className='cta-btn d-md-none d-block text-center mt-4'>
-              <a href='#' className='btn-default'>
+              <a href="javascript:void(0);" className='btn-default'>
                 Discover more stories
               </a>
             </div>

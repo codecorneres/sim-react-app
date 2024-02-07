@@ -51,7 +51,7 @@ export default function Header() {
         <nav className='navbar navbar-light navbar-expand-lg p-0'>
           <div className='container'>
             <div className='site-logo-box'>
-              <a className='navbar-brand p-0' href='#'>
+              <a className='navbar-brand p-0' href="javascript:void(0);">
                 <img src={simLogo} alt='' className='' />
               </a>
             </div>
@@ -76,13 +76,13 @@ export default function Header() {
                     </span>
                   </div>
                   <div className='nav-item'>
-                    <a href='#'>
+                    <a href="javascript:void(0);">
                       <img src={contactIcon} alt='' />
                       Contact
                     </a>
                   </div>
                   <div className='nav-item'>
-                    <a href='#'>
+                    <a href="javascript:void(0);">
                       <img src={personIcon} alt='' />
                       Account
                     </a>
@@ -91,7 +91,7 @@ export default function Header() {
               </div>
               <ul className='navbar-nav me-0 ms-auto mb-2 mb-lg-0'>
                 <li className='nav-item menu-item-has-children'>
-                  <a className=' active' href='#'>
+                  <a className=' active' href="javascript:void(0);">
                     Explore Mission
                   </a>
                   <div className="mega-menu">
@@ -120,7 +120,7 @@ export default function Header() {
                             <div className="icon-with-content">
                                 <ul className="menu list-unstyled">
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                               <div className="nav-icon">
                                                   <img src={tourIcon} alt="" />
@@ -132,11 +132,11 @@ export default function Header() {
                                             </div>
                                         </a>
                                         <ul className="sub-menu list-unstyled">
-                                            <li className="menu-item "><a href="#v">Talk to a Mobiliser</a></li>
+                                            <li className="menu-item "><a href="javascript:void(0);">Talk to a Mobiliser</a></li>
                                         </ul>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                               <div className="nav-icon">
                                                   <img src={queryIcon} alt="" />
@@ -148,14 +148,14 @@ export default function Header() {
                                             </div>
                                         </a>
                                         <ul className="sub-menu list-unstyled">
-                                            <li className="menu-item "><a href="#">Why Serve with SIM?</a></li>
-                                            <li className="menu-item "><a href="#">Is Mission For Me?</a></li>
-                                            <li className="menu-item "><a href="#">Types of service</a></li>
-                                            <li className="menu-item "><a href="#">How does my church fit in?</a></li>
+                                            <li className="menu-item "><a href="javascript:void(0);">Why Serve with SIM?</a></li>
+                                            <li className="menu-item "><a href="javascript:void(0);">Is Mission For Me?</a></li>
+                                            <li className="menu-item "><a href="javascript:void(0);">Types of service</a></li>
+                                            <li className="menu-item "><a href="javascript:void(0);">How does my church fit in?</a></li>
                                         </ul>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={skillIcon} alt="" />
@@ -169,7 +169,7 @@ export default function Header() {
                                         </a>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={missionWorkerIcon} alt="" />
@@ -189,7 +189,7 @@ export default function Header() {
                   </div>
                 </li>
                 <li className='nav-item menu-item-has-children'>
-                  <a className='' href='/'>
+                  <a className='' href="javascript:void(0);">
                     Connect
                   </a>
                   <div className="mega-menu">
@@ -218,7 +218,7 @@ export default function Header() {
                             <div className="icon-with-content">
                                 <ul className="menu list-unstyled">
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={churchIcon} alt="" />
@@ -230,13 +230,13 @@ export default function Header() {
                                             </div>
                                         </a>
                                         <ul className="sub-menu list-unstyled">
-                                            <li className="menu-item "><a href="#">Church Resources</a></li>
-                                            <li className="menu-item "><a href="#">Sending Church Partners</a></li>
-                                            <li className="menu-item "><a href="#">Invite SIM to share</a></li>
+                                            <li className="menu-item "><a href="javascript:void(0);">Church Resources</a></li>
+                                            <li className="menu-item "><a href="javascript:void(0);">Sending Church Partners</a></li>
+                                            <li className="menu-item "><a href="javascript:void(0);">Invite SIM to share</a></li>
                                         </ul>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={reminderIcon} alt="" />
@@ -249,7 +249,7 @@ export default function Header() {
                                         </a>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={openBookIcon} alt="" />
@@ -267,7 +267,7 @@ export default function Header() {
                   </div>
                 </li>
                 <li className='nav-item menu-item-has-children'>
-                  <a className='' href='/'>
+                  <a className='' href="javascript:void(0);">
                     Who We Are
                   </a>
                   <div className="mega-menu">
@@ -296,7 +296,7 @@ export default function Header() {
                             <div className="icon-with-content">
                                 <ul className="menu list-unstyled">
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={contactMenuIcon} alt="" />
@@ -309,7 +309,7 @@ export default function Header() {
                                         </a>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={faqIcon} alt="" />
@@ -322,7 +322,7 @@ export default function Header() {
                                         </a>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={leaderIcon} alt="" />
@@ -335,7 +335,7 @@ export default function Header() {
                                         </a>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={missionIcon} alt="" />
@@ -347,11 +347,11 @@ export default function Header() {
                                             </div>
                                         </a>
                                         <ul className="sub-menu list-unstyled">
-                                            <li className="menu-item "><a href="#">SIM Aid</a></li>
+                                            <li className="menu-item "><a href="javascript:void(0);">SIM Aid</a></li>
                                         </ul>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={storyIcon} alt="" />
@@ -370,7 +370,7 @@ export default function Header() {
                   </div>
                 </li>
                 <li className='nav-item menu-item-has-children nav-btn'>
-                  <a className='' href='/'>
+                  <a className='' href="javascript:void(0);">
                     Pray
                   </a>
                   <div className="mega-menu">
@@ -399,7 +399,7 @@ export default function Header() {
                             <div className="icon-with-content">
                                 <ul className="menu list-unstyled">
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={currentPrayerIcon} alt="" />
@@ -412,7 +412,7 @@ export default function Header() {
                                         </a>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={joinPrayerIcon} alt="" />
@@ -431,7 +431,7 @@ export default function Header() {
                   </div>
                 </li>
                 <li className='nav-item menu-item-has-children nav-btn'>
-                  <a className='' href='/'>
+                  <a className='' href="javascript:void(0);">
                     Give
                   </a>
                   <div className="mega-menu">
@@ -460,7 +460,7 @@ export default function Header() {
                             <div className="icon-with-content">
                                 <ul className="menu list-unstyled">
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                           <div className="multiple-box">
                                             <div className="nav-icon circul"></div>
                                             <div className="content">
@@ -469,11 +469,11 @@ export default function Header() {
                                           </div>
                                         </a>
                                         <ul className="sub-menu list-unstyled">
-                                            <li className="menu-item "><a href="#">SIM Ministries & Projects</a></li>
+                                            <li className="menu-item "><a href="javascript:void(0);">SIM Ministries & Projects</a></li>
                                         </ul>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={bequestIcon} alt="" />
@@ -486,7 +486,7 @@ export default function Header() {
                                         </a>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="#">
+                                        <a href="javascript:void(0);">
                                             <div className="multiple-box">
                                                 <div className="nav-icon">
                                                     <img src={chartYellowIcon} alt="" />

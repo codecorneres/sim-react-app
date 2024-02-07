@@ -20,32 +20,32 @@ export default function Footer() {
                   <div className='footer-social'>
                     <ul className='list-unstyled mb-0'>
                       <li>
-                        <a href='#'>
+                        <a href="javascript:void(0);">
                           <i className='fa-brands fa-facebook-f'></i>
                         </a>
                       </li>
                       <li>
-                        <a href='#'>
+                        <a href="javascript:void(0);">
                           <i className='fa-brands fa-instagram'></i>
                         </a>
                       </li>
                       <li>
-                        <a href='#'>
+                        <a href="javascript:void(0);">
                           <i className='fa-brands fa-linkedin-in'></i>
                         </a>
                       </li>
                       <li>
-                        <a href='#'>
+                        <a href="javascript:void(0);">
                           <i className='fa-solid fa-rss'></i>
                         </a>
                       </li>
                       <li>
-                        <a href='#'>
+                        <a href="javascript:void(0);">
                           <i className='fa-brands fa-youtube'></i>
                         </a>
                       </li>
                       <li>
-                        <a href='#'>
+                        <a href="javascript:void(0);">
                           <i className='fa-brands fa-vimeo-v'></i>
                         </a>
                       </li>
@@ -65,13 +65,13 @@ export default function Footer() {
                       <div className='data-single'>
                         <h6>Within Australia</h6>
                         <p>
-                          <a href='#'>1300 746 580</a>
+                          <a href="javascript:void(0);">1300 746 580</a>
                         </p>
                       </div>
                       <div className='data-single'>
                         <h6>International Call</h6>
                         <p>
-                          <a href='#'> +61 2 9580 1422</a>
+                          <a href="javascript:void(0);"> +61 2 9580 1422</a>
                         </p>
                       </div>
                     </div>
@@ -98,16 +98,16 @@ export default function Footer() {
                     </div>
                     <ul>
                       <li>
-                        <a href='#'>Explore Mission</a>
+                        <a href="javascript:void(0);">Explore Mission</a>
                       </li>
                       <li>
-                        <a href='#'>Donate</a>
+                        <a href="javascript:void(0);">Donate</a>
                       </li>
                       <li>
-                        <a href='#'>Pray</a>
+                        <a href="javascript:void(0);">Pray</a>
                       </li>
                       <li>
-                        <a href='#'>About Us</a>
+                        <a href="javascript:void(0);">About Us</a>
                       </li>
                     </ul>
                   </div>
@@ -119,13 +119,13 @@ export default function Footer() {
                     </div>
                     <ul>
                       <li>
-                        <a href='#'>Site Credits</a>
+                        <a href="javascript:void(0);">Site Credits</a>
                       </li>
                       <li>
-                        <a href='#'>Contact Us</a>
+                        <a href="javascript:void(0);">Contact Us</a>
                       </li>
                       <li>
-                        <a href='#'>Site Map</a>
+                        <a href="javascript:void(0);">Site Map</a>
                       </li>
                     </ul>
                   </div>
@@ -141,10 +141,10 @@ export default function Footer() {
                     </div>
                     <ul>
                       <li>
-                        <a href='#'>Terms & Conditions</a>
+                        <a href="javascript:void(0);">Terms & Conditions</a>
                       </li>
                       <li>
-                        <a href='#'>Privacy Policy</a>
+                        <a href="javascript:void(0);">Privacy Policy</a>
                       </li>
                     </ul>
                   </div>
