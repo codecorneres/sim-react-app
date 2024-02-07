@@ -1,5 +1,5 @@
 import React, {useState, useRef} from 'react'
-import searchIcon from '../images/search-icon.svg';
+import searchIcon from '../images/search.svg';
 import contactIcon from '../images/phone-flip.svg';
 import personIcon from '../images/person.svg';
 import simLogo from '../images/sim-logo.png';
