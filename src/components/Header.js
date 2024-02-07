@@ -296,7 +296,7 @@ export default function Header() {
                             <div className="icon-with-content">
                                 <ul className="menu list-unstyled">
                                     <li className="listing-content">
-                                        <a href="/">
+                                        <a href="#">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={contactMenuIcon} alt="" />
@@ -309,7 +309,7 @@ export default function Header() {
                                         </a>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="/">
+                                        <a href="#">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={faqIcon} alt="" />
@@ -322,7 +322,7 @@ export default function Header() {
                                         </a>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="/">
+                                        <a href="#">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={leaderIcon} alt="" />
@@ -335,7 +335,7 @@ export default function Header() {
                                         </a>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="/">
+                                        <a href="#">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={missionIcon} alt="" />
@@ -347,11 +347,11 @@ export default function Header() {
                                             </div>
                                         </a>
                                         <ul className="sub-menu list-unstyled">
-                                            <li className="menu-item "><a href="/">SIM Aid</a></li>
+                                            <li className="menu-item "><a href="#">SIM Aid</a></li>
                                         </ul>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="/">
+                                        <a href="#">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={storyIcon} alt="" />
@@ -460,7 +460,7 @@ export default function Header() {
                             <div className="icon-with-content">
                                 <ul className="menu list-unstyled">
                                     <li className="listing-content">
-                                        <a href="/">
+                                        <a href="#">
                                           <div className="multiple-box">
                                             <div className="nav-icon circul"></div>
                                             <div className="content">
@@ -469,11 +469,11 @@ export default function Header() {
                                           </div>
                                         </a>
                                         <ul className="sub-menu list-unstyled">
-                                            <li className="menu-item "><a href="/">SIM Ministries & Projects</a></li>
+                                            <li className="menu-item "><a href="#">SIM Ministries & Projects</a></li>
                                         </ul>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="/">
+                                        <a href="#">
                                             <div className="multiple-box">
                                             <div className="nav-icon">
                                                 <img src={bequestIcon} alt="" />
@@ -486,7 +486,7 @@ export default function Header() {
                                         </a>
                                     </li>
                                     <li className="listing-content">
-                                        <a href="/">
+                                        <a href="#">
                                             <div className="multiple-box">
                                                 <div className="nav-icon">
                                                     <img src={chartYellowIcon} alt="" />
