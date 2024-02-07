@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sim-react-app/static/css/main.5ed3af92.css",
-    "main.js": "/sim-react-app/static/js/main.f8e4d28e.js",
+    "main.js": "/sim-react-app/static/js/main.57bde1b0.js",
     "static/js/592.c4f55e60.chunk.js": "/sim-react-app/static/js/592.c4f55e60.chunk.js",
     "static/media/filter-banner.jpg": "/sim-react-app/static/media/filter-banner.fa43fa6cdebf4acb7dc8.jpg",
     "static/media/community.jpg": "/sim-react-app/static/media/community.1230385b10294121602a.jpg",
@@ -53,16 +53,17 @@
     "static/media/play_vdo.svg": "/sim-react-app/static/media/play_vdo.08fda21d92de39f4016bf653b18c3d22.svg",
     "static/media/close.svg": "/sim-react-app/static/media/close.bb1a7757d434b449d098020ca1019508.svg",
     "static/media/call-outline.svg": "/sim-react-app/static/media/call-outline.db386b791a4441386a7704d45a14f01e.svg",
+    "static/media/search.svg": "/sim-react-app/static/media/search.8ed65bab75d5af3aaf6cc819eba66a87.svg",
     "static/media/person.svg": "/sim-react-app/static/media/person.3d986d7b5088fcb24955d600859fea18.svg",
     "static/media/chevron-down.svg": "/sim-react-app/static/media/chevron-down.8df1e7382287a3ae0c33.svg",
     "static/media/search-icon.svg": "/sim-react-app/static/media/search-icon.6ef90dba1063890dd5e05f99e805c54c.svg",
     "static/media/arrow-right.svg": "/sim-react-app/static/media/arrow-right.5acf09eaf488c7863813.svg",
     "main.5ed3af92.css.map": "/sim-react-app/static/css/main.5ed3af92.css.map",
-    "main.f8e4d28e.js.map": "/sim-react-app/static/js/main.f8e4d28e.js.map",
+    "main.57bde1b0.js.map": "/sim-react-app/static/js/main.57bde1b0.js.map",
     "592.c4f55e60.chunk.js.map": "/sim-react-app/static/js/592.c4f55e60.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ed3af92.css",
-    "static/js/main.f8e4d28e.js"
+    "static/js/main.57bde1b0.js"
   ]
 }
